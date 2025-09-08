@@ -4,3 +4,5 @@ function ClassRoom(){
         Student()
     );
 }
+
+export {ClassRoom}
