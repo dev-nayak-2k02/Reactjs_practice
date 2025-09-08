@@ -9,10 +9,6 @@ function Fruit(){
     );
 }
 
-function FruitShop(){
-    return(
-        Fruit()
-    );
-}
 
-export {FruitShop}
+
+export {Fruit}
