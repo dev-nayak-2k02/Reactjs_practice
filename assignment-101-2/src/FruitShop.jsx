@@ -1,8 +1,10 @@
-import { Fruit } from "./Fruit";
+import  Fruit  from "./Fruit";
 function FruitShop(){
     return(
+        Fruit(),
+        Fruit(),
         Fruit()
     );
 }
 
-export {FruitShop}
+export default FruitShop

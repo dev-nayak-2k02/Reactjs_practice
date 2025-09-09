@@ -1,14 +1,15 @@
-function Fruit(){
+export default function Fruit(){
+    let apple = 'Apple';
+    let mango = 'Mango';
+    let chiku = 'Chiku';
     return(
         <>
-            <h1>Apple</h1>
-            <h1>PineApple</h1>
-            <h1>Avocado</h1>
-            <h1>Mango</h1>
+            <h1>{apple}</h1>
+            <h1>{chiku}</h1>
+            <h1>{mango}</h1>
         </>
     );
 }
 
 
 
-export {Fruit}

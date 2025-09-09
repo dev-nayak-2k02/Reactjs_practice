@@ -1,5 +1,4 @@
-import { FruitShop } from "./Fruit"
-
+import { FruitShop } from "./FruitShop";
 function App() {
   
 
