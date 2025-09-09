@@ -1,6 +1,7 @@
 function Greeting(){
+    let greet = 'Hello! Welcome';
     return(
-        <h1>Hello! welcome</h1>
+        <h1>{greet}</h1>
     );
 }
 

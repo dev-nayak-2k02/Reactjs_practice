@@ -1,8 +1,6 @@
-import { Library } from "./Library"
+import Library from "./Library"
 
 function App() {
-  
-
   return (
     <>
       <Library/>

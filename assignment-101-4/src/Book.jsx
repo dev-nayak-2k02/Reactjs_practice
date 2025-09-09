@@ -1,10 +1,10 @@
-function Book(){
+export default function Book(){
+    let book = 'Alice in Wonderland';
+    let author = 'Author - Margret Thatcher';
     return(
         <>
-            <h1>Alice in Wonderland</h1>
-            <p>Author - Margret Thatcher</p>
+            <h1>{book}</h1>
+            <p>{author}</p>
         </>
     );
 }
-
-export {Book}

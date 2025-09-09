@@ -1,7 +1,7 @@
-import { Book } from "./Book";
+import Book from "./Book";
 function Library(){
     return(
         Book()
     );
 }
-export {Library}
+export default Library;

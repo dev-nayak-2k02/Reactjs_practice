@@ -1,11 +1,11 @@
-import Greeting from "./Greeting"
+import Greeting from "./Greeting";
 function Dashboard(){
+    let msg = 'This is our Dashboard';
     return(
         <>
             <Greeting/>
-            <h1>This is our Dashboard</h1>
+            <h1>{msg}</h1>
         </>
     );
 }
-
 export default Dashboard;
