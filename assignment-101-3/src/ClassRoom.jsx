@@ -1,7 +1,7 @@
-import { Student } from "./Student";
+import Student from "./Student";
 function ClassRoom(){
     return(
-        Student()
+        <Student/>
     );
 }
 export default ClassRoom;
