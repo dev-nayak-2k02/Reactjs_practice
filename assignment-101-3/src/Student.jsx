@@ -1,10 +1,10 @@
-function Student(){
+export default function Student(){
+    let name = 'Dev Prasanna Nayak';
+    let roll = '1';
     return(
         <>
-            <h1>Dev Prasanna Nayak</h1>
-            <p>1</p>
+            <h1>{name}</h1>
+            <p>{roll}</p>
         </>
     );
 }
-
-export {Student};

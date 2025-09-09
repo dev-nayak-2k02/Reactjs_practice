@@ -4,5 +4,4 @@ function ClassRoom(){
         Student()
     );
 }
-
-export {ClassRoom}
+export default ClassRoom;
