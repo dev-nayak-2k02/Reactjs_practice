@@ -12,8 +12,8 @@ function App() {
       <Portfolio
         name = {name}
         para = {para}
-        about = {About}
-        skills = {[skill1,skill2,skill3,skill4]}
+        About = {About}
+        skills = {skill1}
       />
     </>
   );

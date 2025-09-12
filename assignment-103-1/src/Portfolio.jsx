@@ -8,9 +8,7 @@ export default function Portfolio({About, skills, name,para}){
             <h1>Name = {name}</h1>
             <h2>Paragraph = {para}</h2>
             <h2>About = {About}</h2>
-            <ul>
-                <li>{skills}</li>
-            </ul>
+            <h3>{skills}</h3>
         </>
     );
 }
