@@ -7,7 +7,7 @@ export default function WordSwitcher(){
     }
     return(
         <>
-            <h1>{words[word]}</h1>
+            <h1>{word}</h1>
             <button onClick={Wordchnger}>Click</button>
         </>
     );
